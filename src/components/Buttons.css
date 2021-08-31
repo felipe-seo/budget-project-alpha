@@ -1,0 +1,22 @@
+.SuccessButton, .PinkButton{
+    width: 80%;
+    height: 40px;
+    background-color: #28A745;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size:18px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    opacity: 0.8;
+    transition: 0.3s
+}
+
+.PinkButton{
+    background-color: #C7448B;
+}
+
+.SuccessButton:hover, .PinkButton:hover{
+    opacity: 1;
+}
