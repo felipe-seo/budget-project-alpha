@@ -10,9 +10,9 @@ function Menu() {
             <ul>
                 <li>Início</li>
                 <li>Orçamentos</li>
-                <li>
+                <li classname="Consultas">
                     Consultas▼
-                    <ul className="DropdownMenu">
+                    <ul className="DropdownMenu" >
                         <li>Orçamentos</li>
                         <li>Clientes</li>
                         <li>Produtos</li>
@@ -21,7 +21,7 @@ function Menu() {
                     </ul>
 
                 </li>
-                <li>
+                <li classname="Cadastros">
                     Cadastros▼
                     <ul className="DropdownMenu">
                         <li>Orçamentos</li>
