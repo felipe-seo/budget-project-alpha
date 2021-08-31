@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from "react-router-dom";
 import "./Buttons.css";
 
 // import { Container } from './styles';
@@ -7,10 +8,15 @@ type Props = {
     nameButton: String;
 }
 
+
+
+
 export class SuccessButton extends Component<Props>{
+
     render(){
+        
         return (
-            <button className="SuccessButton">{this.props.nameButton}</button>
+            <Link className="SuccessButton" to="/user-login" >{this.props.nameButton}</Link>
         )
     }
 }

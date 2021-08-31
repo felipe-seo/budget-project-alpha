@@ -10,7 +10,7 @@ function Login() {
       <>
         <MainLogo />
         <div id="CardHome">
-          <SuccessButton nameButton="Usuários"/>
+          <SuccessButton nameButton="Usuários" route="user-login" />
           <PinkButton />
         </div>
       </>

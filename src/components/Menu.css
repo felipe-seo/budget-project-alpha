@@ -1,0 +1,27 @@
+.Menu {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    width: 100%;    
+    align-items: center;
+    justify-content: center;    
+    background-color: #005A55;
+    font-family: 'Roboto', sans-serif;
+    color: #EBFBEF;
+}
+
+.Menu > ul > li {
+    display: inline-block;
+    padding: 0 10px;    
+    
+}
+
+
+
+.DropdownMenu{
+    display: none;
+}
+
+.DropdownMenu:hover{
+    display: block;
+}

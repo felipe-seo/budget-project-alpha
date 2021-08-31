@@ -1,0 +1,20 @@
+.Logo{
+    display: flex;
+    max-width:180px;
+    margin: 0 15px;
+    margin-bottom: 10px;
+}
+
+
+
+.Links{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: .3s;
+}
+
+.Links:hover{
+    opacity: 1;
+}

@@ -4,7 +4,7 @@ import logo from "../assets/images/logo.svg";
 
 function MainLogo() {
   return (
-    <img src={logo} alt="Logo image" className="Logo"/>
+    <img src={logo} alt="Our Logo" className="Logo"/>
   );
 }
 
