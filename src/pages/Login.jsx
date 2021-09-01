@@ -8,7 +8,7 @@ import  {SuccessButton, PinkButton}  from "../components/Buttons"
 function Login() {
   return (
       <>
-        <MainLogo />
+        <MainLogo/>
         <div id="CardHome">
           <SuccessButton nameButton="Usuários" route="user-login" />
           <PinkButton />

@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from "../assets/images/logo.svg";
+import './MainLogo.css';
 // import { Container } from './styles';
 
 function MainLogo() {

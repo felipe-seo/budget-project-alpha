@@ -13,12 +13,12 @@ function home() {
   return (<>
     <div className="cardMain">  
 
-            <CardButton title="Criar orçamento" image={card1}/>
-            <CardButton title="Consultas" image={card2}/>
+            <CardButton title="Criar orçamento" image={card1} route="/create-budget"/>
+            <CardButton title="Consultas de Orçamentos" image={card2} route="/query-budget"/>
     </div>
     <div className="cardMain">                
-            <CardButton title="Cadastros" image={card3}/>
-            <CardButton title="Ajuda" image={card4}/>
+            <CardButton title="Cadastro de Cliente" image={card3} route="/client-register"/>
+            <CardButton title="Ajuda" image={card4} route="help"/>
     </div>
   </>);
 }
