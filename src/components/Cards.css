@@ -1,0 +1,25 @@
+.Card {
+    font-family: 'Roboto', 'sans-serif';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color:#fff;
+    width: 25%;
+    height: 200px;
+    background-color: #005A55;
+    justify-content: center;
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.7);
+    border-radius: 3px;    
+    opacity: 0.6;
+    transition: 0.3s;    
+}
+
+.Card:hover {
+    opacity: 1;
+}
+
+.Card img {
+    width: 35%;
+    margin-bottom: 10px;
+}

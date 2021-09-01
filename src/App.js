@@ -20,7 +20,7 @@ function App() {
           </Route>
 
           <Route path="/user-login">
-              <LoginUser />s
+              <LoginUser />
           </Route>
 
           <Route path="/panel">
