@@ -10,7 +10,7 @@ function Menu() {
             <ul>
                 <li>Início</li>
                 <li>Orçamentos</li>
-                <li classname="Consultas">
+                <li className="Consultas">
                     Consultas▼
                     <ul className="DropdownMenu" >
                         <li>Orçamentos</li>
@@ -21,7 +21,7 @@ function Menu() {
                     </ul>
 
                 </li>
-                <li classname="Cadastros">
+                <li className="Cadastros">
                     Cadastros▼
                     <ul className="DropdownMenu">
                         <li>Orçamentos</li>
@@ -30,7 +30,7 @@ function Menu() {
                         <li>Categorias de produtos</li>      
                     </ul>
                 </li>
-                <li>Ajuda</li>
+                <li>Ajuda </li>
             </ul>
         </nav>
     </>
