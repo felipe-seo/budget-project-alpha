@@ -6,6 +6,7 @@ import "./Buttons.css";
 
 type Props = {
     nameButton: String;
+    path: String;
 }
 
 
@@ -30,3 +31,22 @@ export class PinkButton extends Component {
 }
 
 
+export class SendButton extends Component<Props>{
+
+    render(){
+        
+        return (
+            <button className="SuccessButton">{this.props.nameButton}</button>
+        )
+    }
+}
+
+export class ClearButton extends Component<Props>{
+
+    render(){
+        
+        return (
+            <button className="SuccessButton">{this.props.nameButton}</button>
+        )
+    }
+}

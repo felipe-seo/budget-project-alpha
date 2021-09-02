@@ -1,0 +1,47 @@
+.FormRegisterSupplier {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+
+.FormSuppliers.FormSuppliers-S1 {
+    width: 55%;    
+}
+
+.FormSuppliers.FormSuppliers-S2 {
+    width: 40%;        
+}
+
+.FormSuppliers.FormSuppliers-S3 {
+    width: 15%;        
+}
+
+.FormSuppliers.FormSuppliers-S4 {
+    width: 80%;        
+}
+
+.FormSuppliers {
+    background-color: #177A74;    
+    border:none;
+    height: 35px;
+    border-bottom: 1px solid #EBFBEF;
+    outline:none;
+    opacity: 0.6;
+    border-radius: 2px;
+    padding-left: 10px;
+    margin-bottom:10px;
+}
+
+.FormSuppliers::placeholder {
+    color:#EBFBEF;
+}
+
+.FormSuppliers:hover {
+    margin-bottom: 2px solid #005A55;    
+    opacity: 1;
+}
+
