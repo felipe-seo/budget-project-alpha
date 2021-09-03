@@ -5,6 +5,7 @@ import Forgotten from "./pages/ForgottenPassword";
 import Panel from "./pages/Panel";
 import Suppliers from "./pages/Suppliers";
 import Clients from "./pages/Clients"
+import Products from "./pages/Products"
 import "./App.css";
 
 
@@ -35,6 +36,10 @@ function App() {
 
           <Route path="/register-clients">
               <Clients />
+          </Route>
+
+          <Route path="/register-products">
+              <Products />
           </Route>
 
         </Switch>
