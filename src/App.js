@@ -3,7 +3,8 @@ import Login from "./pages/Login";
 import LoginUser from "./pages/LoginUser";
 import Forgotten from "./pages/ForgottenPassword";
 import Panel from "./pages/Panel";
-import Suppliers from "./pages/Suppliers"
+import Suppliers from "./pages/Suppliers";
+import Clients from "./pages/Clients"
 import "./App.css";
 
 
@@ -30,6 +31,10 @@ function App() {
 
           <Route path="/register-suppliers">
               <Suppliers />
+          </Route>
+
+          <Route path="/register-clients">
+              <Clients />
           </Route>
 
         </Switch>

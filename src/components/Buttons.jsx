@@ -36,7 +36,7 @@ export class SendButton extends Component<Props>{
     render(){
         
         return (
-            <button className="SuccessButton">{this.props.nameButton}</button>
+            <button className="SuccessButton SuccessButton-Register">{this.props.nameButton}</button>
         )
     }
 }
@@ -46,7 +46,7 @@ export class ClearButton extends Component<Props>{
     render(){
         
         return (
-            <button className="SuccessButton">{this.props.nameButton}</button>
+            <button className="PinkButton PinkButton-Register">{this.props.nameButton}</button>
         )
     }
 }

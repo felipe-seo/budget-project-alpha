@@ -1,5 +1,6 @@
 import React from 'react';
 import "./RegisterSuppliers.css"
+import "./RegisterClients.css"
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import {TitleLogin} from "./Titles.jsx";
 import {SendButton, ClearButton} from "./Buttons.jsx";
@@ -7,14 +8,14 @@ import {SendButton, ClearButton} from "./Buttons.jsx";
 
 // import { Container } from './styles';
 
-function RegisterSuppliers() {
+function RegisterClients() {
   return (
       <>
 
-<TitleLogin nameTitle="Cadastro de fornecedor"/>
+<TitleLogin nameTitle="Cadastro de Clientes"/>
 <Formik>
     <Form className="FormRegisterSupplier">
-        <Field type="text" name="name" className="FormSuppliers FormSuppliers-S1" placeholder="Fornecedor"/>
+        <Field type="text" name="name" className="FormSuppliers FormSuppliers-S1" placeholder="Nome/Razão Social"/>
         <ErrorMessage name="user" component="div" />
         <Field type="text" name="document" className="FormSuppliers FormSuppliers-S2" maxlength="20" placeholder="CNPJ/CPF"/>
         <ErrorMessage name="document" component="div" />
@@ -45,5 +46,5 @@ function RegisterSuppliers() {
   );
 }
 
-export default RegisterSuppliers;
+export default RegisterClients;
 

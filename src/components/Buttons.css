@@ -26,3 +26,10 @@
 .SuccessButton:hover, .PinkButton:hover{
     opacity: 1;
 }
+
+.SuccessButton.SuccessButton-Register{
+    width: 49%;
+}
+.PinkButton.PinkButton-Register{
+    width: 49%;
+}
