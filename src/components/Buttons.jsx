@@ -36,7 +36,7 @@ export class SendButton extends Component<Props>{
     render(){
         
         return (
-            <button className="SuccessButton SuccessButton-Register">{this.props.nameButton}</button>
+            <button type="submit" className="SuccessButton SuccessButton-Register">{this.props.nameButton}</button>
         )
     }
 }

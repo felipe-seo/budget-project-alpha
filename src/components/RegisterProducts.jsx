@@ -18,11 +18,11 @@ function RegisterClients() {
     <Form className="FormRegisterSupplier">
         <Field type="text" name="product_name" className="FormSuppliers FormSuppliers-S1" placeholder="Nome do produto"/>
         <ErrorMessage name="user" component="div" />
-        <Field type="number" name="qt_product" className="FormSuppliers FormSuppliers-S2" maxlength="20" placeholder="Quantidade"/>
+        <Field type="number" name="qt_product" className="FormSuppliers FormSuppliers-S2" maxLength="20" placeholder="Quantidade"/>
         <ErrorMessage name="qt_product" component="div" />
-        <Field type="text" name="serial_number" className="FormSuppliers FormSuppliers-S1" maxlength="15" placeholder="Número de série"/>
+        <Field type="text" name="serial_number" className="FormSuppliers FormSuppliers-S1" maxLength="15" placeholder="Número de série"/>
         <ErrorMessage name="serial_number" component="div" />
-        <Field type="number" name="sale_value" className="FormSuppliers FormSuppliers-S2" maxlength="80" placeholder="Preço"/>
+        <Field type="number" name="sale_value" className="FormSuppliers FormSuppliers-S2" maxLength="80" placeholder="Preço"/>
         <ErrorMessage name="sale_value" component="div" />        
         <Field as="select" name="id_supplier" className="FormSuppliers FormSuppliers-S1 P1">
              <option value="option">Selecione um fornecedor</option>             
