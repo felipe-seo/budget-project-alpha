@@ -35,7 +35,7 @@ function RegisterSuppliers() {
 
             // let convertValues = JSON.stringify(values);
             setSubmitting(false);
-            axios.post(`http://localhost:3001/teste`, { values })
+            axios.post(`http://localhost:3001/suppliers`, { values })
             .then(res => {
               console.log(res);
               console.log(res.data);
