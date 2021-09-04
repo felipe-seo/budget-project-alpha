@@ -17,7 +17,7 @@ function home() {
             <CardButton title="Consultas de Orçamentos" image={card2} route="/query-budget"/>
     </div>
     <div className="cardMain">                
-            <CardButton title="Cadastro de Cliente" image={card3} route="/client-register"/>
+            <CardButton title="Cadastro de Cliente" image={card3} route="/register-clients"/>
             <CardButton title="Ajuda" image={card4} route="help"/>
     </div>
   </>);

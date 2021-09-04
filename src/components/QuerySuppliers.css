@@ -1,0 +1,49 @@
+.TableSup{
+    width: 60%;
+    overflow-x:auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #EBFBEF;
+    border-collapse: collapse;
+}
+
+.TableHead{
+    background-color: #005A55;
+}
+
+.TableHead th{
+    height: 30px;
+    border: 1px solid #000;
+}
+
+.TableBody{
+    background-color: #177A74
+}
+
+.TableBody tr{  
+    height: 30px;
+    text-align: center;
+    
+}
+
+.TableBody tr td{
+    border-left: 1px solid #EBFBEF60;
+    border-right: 1px solid #EBFBEF60;
+} 
+
+.SearchSup{
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #EBFBEF47;
+    border: 1px solid #EBFBEF47;
+    outline: none;
+    margin: 0 auto;
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+
+.SearchSup::placeholder{
+    color: #EBFBEF79;
+    text-align: center;
+}

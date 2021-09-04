@@ -18,7 +18,7 @@ function Menu() {
                         <Link><li>Clientes</li></Link>
                         <Link><li>Produtos</li></Link>
                         <Link><li>Categorias de produtos</li></Link>                  
-                        <Link><li>Fornecedores</li></Link>
+                        <Link to="/query-suppliers"><li>Fornecedores</li></Link>
                     </ul>
 
                 </li>
