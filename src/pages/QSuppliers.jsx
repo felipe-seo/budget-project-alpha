@@ -2,7 +2,7 @@ import React from 'react';
 import "./Panel.css";
 import PanelLogo from '../components/PanelLogo';
 import Menu from '../components/Menu';
-import QuerySuppliers from '../components/QuerySuppliers';
+import {QuerySuppliers} from '../components/QuerySuppliers';
 
 
 
