@@ -6,6 +6,7 @@ import Panel from "./pages/Panel";
 import Suppliers from "./pages/Suppliers";
 import Clients from "./pages/Clients"
 import Products from "./pages/Products"
+import QSuppliers from "./pages/QSuppliers"
 import "./App.css";
 
 
@@ -40,6 +41,10 @@ function App() {
 
           <Route path="/register-products">
               <Products />
+          </Route>
+
+          <Route path="/query-suppliers">
+              <QSuppliers />
           </Route>
 
         </Switch>

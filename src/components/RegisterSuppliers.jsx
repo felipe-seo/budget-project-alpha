@@ -11,7 +11,7 @@ function RegisterSuppliers() {
       <>
 
 <TitleLogin nameTitle="Cadastro de fornecedor"/>
-<Formik
+<Formik 
     initialValues = {
         {
             name: '', 
