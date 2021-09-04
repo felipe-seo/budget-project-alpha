@@ -28,11 +28,6 @@ function RegisterSuppliers() {
     }
 
     onSubmit={(values, { setSubmitting }) => {
-            /*setTimeout(() => {
-                alert(JSON.stringify(values, null, 2));
-                setSubmitting(false);
-            }, 400);*/
-
             // let convertValues = JSON.stringify(values);
             setSubmitting(false);
             axios.post(`http://localhost:3001/suppliers`, { values })
@@ -48,7 +43,7 @@ function RegisterSuppliers() {
 {({ isSubmitting }) => (
     <Form className="FormRegisterSupplier">
         <Field type="text" name="name" className="FormSuppliers FormSuppliers-S1" placeholder="Fornecedor"
-            
+  
         />
         
         <Field type="text" name="document" className="FormSuppliers FormSuppliers-S2" maxLength="20" placeholder="CNPJ/CPF"
